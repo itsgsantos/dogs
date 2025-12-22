@@ -1,16 +1,71 @@
-# React + Vite
+# 🐶 **DOGS**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Rede social para compartilhamento de fotos de cachorros**  
+Projeto focado em **componentização, gerenciamento de estado e consumo de API**, desenvolvido com **React, HTML e CSS Modules**, seguindo boas práticas de Front-end moderno.
 
-Currently, two official plugins are available:
+🔗 **Demo online:** https://doggoapp.vercel.app/  
+🎨 **Design / Inspiração:** Origamid
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📸 **Preview**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### **Dogs – Desktop / Mobile**
 
-## Expanding the ESLint configuration
+| Desktop | Mobile |
+|--------|--------|
+| <img src="https://github.com/user-attachments/assets/83594405-f31c-4256-b505-244e228ec7fc" width="100%" /> | <img src="https://github.com/user-attachments/assets/74421907-ba55-4cdf-8b9f-43dc2ea1e57f" width="100%" /> |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🚀 **Tecnologias Utilizadas**
+
+* **HTML5** – estrutura semântica
+* **React** – componentes, hooks e ciclo de vida
+* **CSS Modules** – escopo local de estilos
+* **JavaScript (ES6+)** – lógica e interações
+* **Fetch API** – consumo de API REST
+* **Responsividade** – layout adaptado para desktop e mobile
+
+---
+
+## 📚 **Aprendizados**
+
+Durante o desenvolvimento do projeto, pratiquei:
+
+* ⚛️ Criação e organização de **componentes React**
+* 🧠 Gerenciamento de **estado global e local**
+* 🔐 Controle de **autenticação e rotas protegidas**
+* 📡 Consumo de **API REST**
+* 🎨 Estilização modular com **CSS Modules**
+* 📱 Desenvolvimento de **interfaces responsivas**
+
+---
+
+## ⚙️ **Funcionalidades**
+
+* ✅ Cadastro e login de usuários
+* ✅ Postagem e visualização de fotos
+* ✅ Feed com paginação/infinite scroll
+* ✅ Comentários e interações
+* ✅ Perfil do usuário
+* ✅ Rotas protegidas
+* ✅ Layout responsivo
+
+---
+
+## 🧩 **Como executar localmente**
+
+```bash
+# Clone este repositório
+git clone https://github.com/itsgsantos/dogs.git
+
+# Acesse a pasta do projeto
+cd dogs
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
