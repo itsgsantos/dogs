@@ -1,71 +1,92 @@
-# 🐶 **DOGS**
+# 🐶 Dogs | Social Media for Pets
 
-**Rede social para compartilhamento de fotos de cachorros**  
-Projeto focado em **componentização, gerenciamento de estado e consumo de API**, desenvolvido com **React, HTML e CSS Modules**, seguindo boas práticas de Front-end moderno.
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://doggoapp.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-🔗 **Demo online:** https://doggoapp.vercel.app/  
-🎨 **Design / Inspiração:** Origamid
+**Dogs** is a high-end social networking application dedicated to pet enthusiasts. This platform allows users to create accounts, share their pets' daily lives through photo uploads, interact via comments, and monitor their profile engagement with real-time analytics.
 
----
+Developed as a deep dive into the **React ecosystem**, this project emphasizes modular architecture, robust state management, and seamless REST API integration.
 
-## 📸 **Preview**
-
-### **Dogs – Desktop / Mobile**
-
-| Desktop | Mobile |
-|--------|--------|
-| <img src="https://github.com/user-attachments/assets/83594405-f31c-4256-b505-244e228ec7fc" width="100%" /> | <img src="https://github.com/user-attachments/assets/74421907-ba55-4cdf-8b9f-43dc2ea1e57f" width="100%" /> |
-
+🔗 **Live Demo:** [doggoapp.vercel.app](https://doggoapp.vercel.app/)
 
 ---
 
-## 🚀 **Tecnologias Utilizadas**
+## 📸 Interface Preview
 
-* **HTML5** – estrutura semântica
-* **React** – componentes, hooks e ciclo de vida
-* **CSS Modules** – escopo local de estilos
-* **JavaScript (ES6+)** – lógica e interações
-* **Fetch API** – consumo de API REST
-* **Responsividade** – layout adaptado para desktop e mobile
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/83594405-f31c-4256-b505-244e228ec7fc" width="65%" alt="Desktop View" />
+  <img src="https://github.com/user-attachments/assets/74421907-ba55-4cdf-8b9f-43dc2ea1e57f" width="28%" alt="Mobile View" />
+</p>
 
 ---
 
-## 📚 **Aprendizados**
+## 🚀 Technical Features
 
-Durante o desenvolvimento do projeto, pratiquei:
+* **Secure Authentication:** Custom-built login and registration flow utilizing JWT storage and Protected Routes.
+* **Dynamic Media Feed:** High-performance photo feed featuring Infinite Scroll and optimized image loading.
+* **User Analytics:** Interactive dashboard visualizing post engagement and user stats through custom components.
+* **Community Interaction:** Full CRUD capabilities for comments and instant feedback on user interactions.
+* **Modern Styling:** Built with **CSS Modules** to ensure encapsulated, maintainable, and collision-free styles.
+* **Accessibility & UX:** Mobile-first approach with semantic HTML, focus management, and smooth SVG animations.
 
-* ⚛️ Criação e organização de **componentes React**
-* 🧠 Gerenciamento de **estado global e local**
-* 🔐 Controle de **autenticação e rotas protegidas**
-* 📡 Consumo de **API REST**
-* 🎨 Estilização modular com **CSS Modules**
-* 📱 Desenvolvimento de **interfaces responsivas**
+## 🛠️ Tech Stack
+
+- **Framework:** [React.js](https://reactjs.org/) (Hooks, Context API, Router)
+- **Styling:** CSS Modules
+- **API Communication:** Fetch API / REST Patterns
+- **Build Tool:** Vite
+- **Deployment:** Vercel
+
+## 🧠 Technical Challenges & Learnings
+
+The primary challenge was managing the **Global Authentication State** while ensuring a smooth user experience during asynchronous operations (like photo uploads and real-time comment updates). 
+
+**Key Achievements:**
+- Implemented persistent login sessions using browser storage and React Context.
+- Optimized performance by handling complex UI states (Loading, Error, Success) across the entire application.
+- Mastered the creation of reusable, decoupled components for a scalable codebase.
 
 ---
 
-## ⚙️ **Funcionalidades**
+## 💻 Getting Started
 
-* ✅ Cadastro e login de usuários
-* ✅ Postagem e visualização de fotos
-* ✅ Feed com paginação/infinite scroll
-* ✅ Comentários e interações
-* ✅ Perfil do usuário
-* ✅ Rotas protegidas
-* ✅ Layout responsivo
+### Prerequisites
+- Node.js (v18.0.0 or higher)
+- npm or yarn
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/itsgsantos/dogs.git](https://github.com/itsgsantos/dogs.git)
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    cd dogs
+    npm install
+    ```
+
+3.  **Environment Variables:**
+    Create a `.env` file in the root directory:
+    ```env
+    VITE_API_URL=[https://dogsapi.origamid.dev/json](https://dogsapi.origamid.dev/json)
+    ```
+
+4.  **Run the application:**
+    ```bash
+    npm run dev
+    ```
 
 ---
 
-## 🧩 **Como executar localmente**
+## 📫 Connect with Me
 
-```bash
-# Clone este repositório
-git clone https://github.com/itsgsantos/dogs.git
+- **GitHub:** [@itsgsantos](https://github.com/itsgsantos)
 
-# Acesse a pasta do projeto
-cd dogs
+---
 
-# Instale as dependências
-npm install
-
-# Inicie o servidor de desenvolvimento
-npm run dev
+<p align="center">
+  Developed with ⚡ by <strong>Guilherme Santos</strong>
+</p>
